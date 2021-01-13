@@ -1,0 +1,260 @@
+/*style for centering objects*/
+.center{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/*styles for navigation bar*/
+.navBar {
+    overflow: hidden;
+    text-align: center;
+    background-image: linear-gradient(to right ,#fde7f9 , #aacaef);
+    padding:20px;
+}
+.navBar a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    color: black;
+    font-family: avenir;
+}
+.navBar a:hover {
+    background-color: white;
+    color: black;
+    padding:42px 10px;
+}
+.navBar a.active {
+    background-color: white;
+    color: black;
+    padding: 20px 10px;
+}
+
+/*style for title bar across each page*/
+.titleBar {
+    overflow: hidden;
+    text-align: center;
+    background-image: linear-gradient(to right, #8BC6EC, #9599E2);
+
+}
+.titleBar p{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0 0px;
+    color: White;
+    font-family: Avenir;
+}
+
+/*style for image on homepage*/
+.gallery img {
+    width: 100%;
+    height: 550px;
+}
+
+/*style for "Welcome to Elite Nails"*/
+.greeting h3 {
+    text-align: center;
+    font-family: Apple Chancery;
+    margin: 0;
+}
+.greeting h2 {
+    text-align: center;
+    font-family: Apple Chancery;
+    margin: 0;
+    color: #bc6ff1;
+}
+
+/*style for "Elite Nails"*/
+.elite {
+    color: #bc6ff1;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+/*style for main description on homepage*/
+.overview {
+    text-align: center;
+    font-family: avenir;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    line-height: 2;
+}
+.overview td{
+    text-align: left;
+    font-family: avenir;
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 2;
+    padding: 0 100px;
+}
+
+.servicesOverview{
+    margin-left: auto;
+    margin-right: auto;
+    width 65%;
+    padding: 10px;
+    text-align: center;
+    font-family: avenir;
+    cursor: pointer;
+}
+.servicesOverview img{
+    display: inline-block;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding: 50px;
+}
+.appointmentOverview{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    font-family: avenir;
+    line-height: 2;
+    text-align: center;
+
+}
+.appointmentOverview img{
+
+    width: 400px;
+    height: 300px;
+}
+
+/*styles for manicure section of services*/
+.manicure img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 500px;
+
+}
+.manicure h2{
+    text-align: center;
+    font-family: Apple Chancery;
+}
+.manicure table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.manicure td{
+    padding: 0 100px;
+    font-size: 20px;
+    font-family: avenir;
+}
+
+/*styles for pedicure section of services*/
+.pedicure img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.pedicure h2{
+    text-align: center;
+    font-family: Apple Chancery;
+
+}
+.pedicure table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.pedicure td{
+    padding: 0 100px;
+    font-size: 20px;
+    font-family: avenir;
+}
+
+/*styles for appointment form*/
+.appointment {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    border: 0px;
+    font-family: avenir;
+    padding-top: 10px;
+}
+label {
+
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    background: #f1f1f1;
+}
+
+/*styles for submit button*/
+.button{
+    background-color: lightblue;
+    width: 65%;
+    height: 50px;
+    border: none;
+}
+.button:hover{
+    color: white;
+
+}
+
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    font-family: avenir;
+    line-height: 2;
+}
+
+.about img{
+    display: block;
+    margin: auto;
+    width: 65%;
+    height: 400px;
+}
+
+#members{
+    text-align: center;
+}
+
+#members a {
+    text-align: center;
+    font-family: avenir;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#team {
+    text-align: center;
+    font-family: avenir;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(to right ,#fde7f9 , #aacaef);
+    font-family: avenir;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+
+
+}
+footer a{
+    text-decoration: none;
+    color: purple;
+}
+
+#servicePreview {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: avenir;
+
+}

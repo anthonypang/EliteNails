@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule Appointment</title>
+    <link rel="stylesheet" href="Pang-Assignment.css">
+</head>
+<body>
+    <header>
+        <div id="navBar" class="navBar">
+            <a href="index.html">HOME</a>
+            <a href="Pang-Assignment_Services.html">SERVICES</a>
+            <a class="active" href="Pang-Assignment_Appointment.html">SCHEDULE APPOINTMENT</a>
+            <a href="Pang-Assignment_About.html">ABOUT US</a>
+        </div>
+    </header>
+    <main class="center">
+        <!--title bar for the appointment page-->
+        <div class="titleBar">
+            <p>Schedule Appointment</p>
+        </div>
+
+        <!--for for appointments-->
+        <div id="form" class="appointment">
+            <form action="#" method="get">
+                <p>To Schedule An Appointment, Please Fill Out The Following Information.</p>
+                <label for="firstname">First Name: </label><br>
+                <input type="text" id="firstname"  name="fname" required placeholder="Sharon"><br>
+                <label for="lastname">Last Name: </label><br>
+                <input type="text" id="lastname" name="lname" required placeholder="Lee"><br>
+                <label for="e-mail">E-mail: </label><br>
+                <input type="email" id="e-mail" name="email" required placeholder="slee@gmail.com"><br>
+                <label for="phone">Phone:</label><br>
+                <input id="phone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required placeholder="777-777-7777"><br>
+                <input class="button" type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+
+    <!--location, phone, and copyright in the footer-->
+    <footer>
+        <div>
+            <address>
+                <a href="https://goo.gl/maps/oXx4nRPruaNUGg1LA">202 Market St # F, Cramerton, NC 28032</a>
+            </address>
+            <a href="tel:7048249032">(704) 824-9032</a>
+        </div>
+        <p>Copyright © Elite Nails</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<table class="center">
+                <tr>
+                    <td>Regular Pedicure (25-30 min):</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>Deluxe Pedicure (35-40 min):</td>
+                    <td>$35</td>
+                </tr>
+            </table><br><br>
